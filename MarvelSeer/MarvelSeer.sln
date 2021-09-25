@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{610B5D74-FDBE-47C0-AB20-105C62F35AEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C72FC396-DD22-4962-871B-500321DFE5C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{33664A28-31F2-447E-AA38-E2180455257B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{12E51656-720F-4E5B-ACDD-6BF9F70A28FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{7C1A3D09-3635-462B-9323-2CCB1264496E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarvelSeer.Domain", "MarvelSeer.Domain\MarvelSeer.Domain.csproj", "{4BF763E3-D3E4-4F03-A995-D9C28BCB5AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelSeer.Domain.Core", "MarvelSeer.Domain.Core\MarvelSeer.Domain.Core.csproj", "{9DB8CBEB-AA3B-4966-9344-07437962193D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelSeer.Domain.Test", "MarvelSeer.Domain.Test\MarvelSeer.Domain.Test.csproj", "{23D0B9B6-3A2D-421A-A373-7C186DC1F1F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF763E3-D3E4-4F03-A995-D9C28BCB5AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF763E3-D3E4-4F03-A995-D9C28BCB5AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF763E3-D3E4-4F03-A995-D9C28BCB5AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF763E3-D3E4-4F03-A995-D9C28BCB5AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB8CBEB-AA3B-4966-9344-07437962193D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB8CBEB-AA3B-4966-9344-07437962193D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB8CBEB-AA3B-4966-9344-07437962193D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB8CBEB-AA3B-4966-9344-07437962193D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D0B9B6-3A2D-421A-A373-7C186DC1F1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D0B9B6-3A2D-421A-A373-7C186DC1F1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D0B9B6-3A2D-421A-A373-7C186DC1F1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D0B9B6-3A2D-421A-A373-7C186DC1F1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BF763E3-D3E4-4F03-A995-D9C28BCB5AF4} = {33664A28-31F2-447E-AA38-E2180455257B}
+		{9DB8CBEB-AA3B-4966-9344-07437962193D} = {33664A28-31F2-447E-AA38-E2180455257B}
+		{23D0B9B6-3A2D-421A-A373-7C186DC1F1F4} = {7C1A3D09-3635-462B-9323-2CCB1264496E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D46A88E-D464-4062-A967-B3CBD770B898}
+	EndGlobalSection
+EndGlobal
